@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "style-guide": {
+      "command": "node",
+      "args": ["C:\\mcpservers\\style-guide-mcp-server\\build\\index.js"]
+    }
+  }
+}

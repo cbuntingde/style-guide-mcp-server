@@ -1,0 +1,23 @@
+{
+  "name": "style-guide-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0-rc.12",
+    "marked": "^9.1.6",
+    "better-sqlite3": "^9.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5",
+    "@types/better-sqlite3": "^7.6.8"
+  }
+}
