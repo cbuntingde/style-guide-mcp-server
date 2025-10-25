@@ -1,17 +1,9 @@
-# Copyright 2025 Chris Bunting <cbuntingde@gmail.com>
-# All rights reserved.
-#
-# File: readme.md
-# Description: README for Style Guide MCP Server
-#
-# Created: 2025-01-04
-# Last Modified: 2025-01-04
-#
-# Change Log:
-#-----------
-# 2025-01-04 - Chris Bunting - Initial creation
-
 # Style Guide MCP Server
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-blue)](https://www.typescriptlang.org/)
+[![Model Context Protocol](https://img.shields.io/badge/MCP-Compatible-purple)](https://modelcontextprotocol.io/)
 
 A comprehensive Model Context Protocol (MCP) server that provides access to programming style guides, best practices, and security guidelines for multiple programming languages.
 
@@ -337,12 +329,17 @@ style-guide-mcp-server/
 │   └── unit/                 # Unit tests
 ├── docs/
 │   └── API.md                # API documentation
+├── scripts/                  # Setup and utility scripts
 ├── data/                     # Database storage (gitignored)
 ├── exports/                  # Generated exports (gitignored)
 ├── build/                    # Compiled output (gitignored)
 ├── package.json              # Dependencies and scripts
 ├── tsconfig.json             # TypeScript configuration
 ├── mcp.json                  # MCP server configuration
+├── LICENSE                   # MIT License
+├── CONTRIBUTING.md           # Contribution guidelines
+├── SECURITY.md               # Security policy
+├── CODE_OF_CONDUCT.md        # Community guidelines
 └── README.md                 # This file
 ```
 
@@ -377,7 +374,7 @@ Complete API documentation is available at:
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our contributing guidelines for details.
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ### Development Process
 
@@ -409,6 +406,7 @@ For support and questions:
 - **Documentation**: [Full Documentation](docs/)
 - **Issues**: [GitHub Issues](https://github.com/cbuntingde/style-guide-mcp-server/issues)
 - **Examples**: [Example Usage](example-usage.md)
+- **Security**: [Security Policy](SECURITY.md)
 
 ## 🗺️ Roadmap
 
@@ -430,3 +428,9 @@ For support and questions:
 ---
 
 **Built with ❤️ for the development community**
+
+---
+
+**Repository**: https://github.com/cbuntingde/style-guide-mcp-server  
+**Issues**: https://github.com/cbuntingde/style-guide-mcp-server/issues  
+**Discussions**: https://github.com/cbuntingde/style-guide-mcp-server/discussions
