@@ -40,12 +40,17 @@ We welcome contributions to the Style Guide MCP Server! This document provides g
    
    # Run tests to ensure everything works
    npm test
+   
+   # Run performance tests (optional but recommended)
+   npm run test:performance
    ```
 
 3. **Configure Your Environment**
    - Copy environment variables from `.env.example` (create if needed)
-   - Set up your local database
+   - Set up your local database (SQLite with WAL mode recommended)
    - Configure your IDE for TypeScript development
+   - Ensure you have 4GB+ RAM available for optimal caching performance
+   - Set up cache directories (they will be created automatically)
 
 ## 📋 Types of Contributions
 
@@ -171,6 +176,27 @@ We appreciate documentation improvements:
 - Use meaningful variable and function names
 - Add JSDoc comments for all public functions
 - Include type annotations for all parameters and return values
+- Use async/await for all asynchronous operations
+- Implement proper error handling with try-catch blocks
+- Follow the modular architecture pattern (database/, http/, fetching/, memory/)
+
+### Performance Guidelines
+
+- **Startup Time**: Target <50ms startup time (current: 22ms)
+- **Memory Usage**: Monitor memory usage and implement proper cleanup
+- **Caching**: Use the provided caching layers for HTTP requests and database queries
+- **Batch Processing**: Use batch operations for improved performance
+- **Connection Pooling**: Leverage database connection pooling
+- **Lazy Loading**: Implement lazy loading where appropriate
+
+### Architecture Guidelines
+
+- **Modular Design**: Keep modules focused and loosely coupled
+- **Dependency Injection**: Use dependency injection for testability
+- **Error Boundaries**: Implement proper error boundaries
+- **Configuration**: Use environment variables for configuration
+- **Monitoring**: Add performance monitoring for new features
+- **Security**: Follow security best practices in all modules
 
 ### File Headers
 

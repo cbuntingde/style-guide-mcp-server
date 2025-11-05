@@ -512,7 +512,7 @@ Provides Prometheus-compatible metrics for monitoring.
 For support and questions:
 
 - **Documentation:** [Full Documentation](https://github.com/cbunting99/style-guide-mcp-server)
-- **Issues:** [GitHub Issues](https://github.com/cbunting99/style-guide-mcp-server/issues)
+- **Issues:** [GitHub Issues](https://github.com/cbuntingde/style-guide-mcp-server/issues)
 - **Security:** Report security issues to security@example.com
 
 ## License

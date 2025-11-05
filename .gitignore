@@ -176,6 +176,9 @@ monitoring-data/
 # Cache directories
 .cache/
 .parcel-cache/
+http-cache/
+content-cache/
+database-cache/
 
 # AI/ML model files
 *.model
@@ -317,3 +320,8 @@ junit.xml
 testem.log
 
 # End of file
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
