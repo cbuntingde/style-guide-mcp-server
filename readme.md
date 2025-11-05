@@ -5,7 +5,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-blue)](https://www.typescriptlang.org/)
 [![Model Context Protocol](https://img.shields.io/badge/MCP-Compatible-purple)](https://modelcontextprotocol.io/)
 
-A comprehensive Model Context Protocol (MCP) server that provides access to programming style guides, best practices, and security guidelines for multiple programming languages.
+⚡ Lightning-fast MCP server providing comprehensive programming style guides, security best practices, and code analysis for 15+ languages with intelligent caching and optimization.
 
 ## 🚀 Features
 
